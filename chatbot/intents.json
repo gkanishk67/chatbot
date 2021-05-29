@@ -1,0 +1,53 @@
+{"intents": [
+        
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "coaching",
+         "patterns": ["IAS coaching", "UPSC coaching", "SSC", "State Level Exam","IIT","JEE","Bank","Banking","Java","C","C++","CA","PCS","Machine learning and Artificial intelligence","Deep learning "],
+         "responses": ["Yes , classes are available , which medium do you prefer ? Hindi or English?", "Which medium do you prefer? Hindi or English"]
+        },
+       
+		{"tag": "query1",
+         "patterns": ["Hello", "Hi there", "Hi", "Heya" ,"How are you","Good morning","Good day"],
+         "responses": ["For which course are you planning ?", "Tell us the course you are interested in please ."]
+        },
+		{"tag": "query2",
+         "patterns": ["Hindi","English","Telugu"],
+         "responses": ["Looking for online or offline classes", "Would you like to go for online or offline classes?"]
+        },
+		{"tag": "query3",
+         "patterns": ["Online classes", "Offline classes", "Online", "Offline"],
+         "responses": ["What is your qualification?", "You are a working professional or a student?"]
+        },
+		{"tag": "query4",
+         "patterns": ["I am a graduate","Student","Working professional","12th pass","10th pass","Under graduate","Post Graduate","Btech","Bcom","BA student","BBA student","3rd year","1st year","2nd year","4th year","Final year student"],
+         "responses": ["What is the best time to contact you? 9AM to 6PM , after 6PM or anyother time?", "At what time our customer excecutive can call you?"]
+        },
+		{"tag": "query5",
+         "patterns": ["9AM to 6 PM", "After 6 PM", "10 AM","11 AM","12 PM" ,"1 PM","2 PM","3 PM","4 PM","5 PM","7 PM","8 PM","9 PM"],
+         "responses": ["When are you planning to join any course? This month , next month or not sure ?", "We would like to know when do you want to join any course , which is this month/next month/next year or not sure?"]
+        },
+		{"tag": "query7",
+         "patterns": ["This month", "Next month", "Later", "Not sure","Next year","Immediately","This week","Next week"],
+         "responses": ["Please provide us with your credentials : Name - _______ , Email - ________, Contact no.- _________ .(In this format) ", "We would like to know your credentials . Name - _______ , Email - ________, Contact no.- _________ .(In this format)"]
+        },
+		{"tag": "query8",
+         "patterns": ["xyz@gmail.com", "xyz@yahoo.com", "xyz@yahoo.in", "xyz@outlook.com","Name-","Mobile number","contact number","1234567890","Name- , Email- ,contact no.-","Email-","Contact no.-"],
+         "responses": ["Thank you , our customer excecutive will reach to you in some time , type quit to stop . ", "Thanks for your corporation , our customer excecutive will get to you in no time . (type quit to end the conversation)"]
+        },
+		{"tag": "query9",
+         "patterns": ["What can you do?", "How can you help?"],
+         "responses": ["I am an intelligent bot here to help you with choosing a course best for you!", "I am here to analyse your details and help you with best coaching institutes for you."]
+        },
+		{"tag": "query10",
+         "patterns": ["what is meritroad ? ", "Why meritroad ?"],
+         "responses": ["Meritroad helps you with finding best coaching institutes for you . Meritroad team answer the queries and provide helps customer as per their needs","Thank you , our customer excecutive will reach to you in some time , type quit to stop . " ]
+        }
+	]
+}
